@@ -20,6 +20,10 @@ body {
   margin-bottom: 0;
 }
 
+.bdr_btm_light{
+  border-bottom: 1px solid #f1f1f1;
+}
+
 .indexcss1 {
   display: flex;
   flex-direction: column;
@@ -29,7 +33,7 @@ body {
 
 .navbar_1 {
   width: 100%;
-  height: 60px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,6 +83,7 @@ body {
   margin: 20px 0;
   text-align: center;
   font-size: 15px;
+  margin-bottom: 65px;
 }
 
 .home_4 {
@@ -195,6 +200,7 @@ body {
 }
 
 .semcss2 {
+  border-radius: 11px;
   border: 1px solid lightgray;
   width: 50%;
   margin-bottom: 20px;
@@ -203,7 +209,8 @@ body {
 .semcss3 {
   width: 100%;
   height: 50px;
-  background-color: gray;
+  background-color: #cfcfcf;
+  border-radius: 10px 10px 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,7 +219,7 @@ body {
 .semcss4 {
   width: 100%;
   height: 50px;
-  background-color: lightgray;
+  background-color: #efefef;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -221,11 +228,11 @@ body {
 .semcss5 {
   width: 100%;
   height: 50px;
-  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 
 .semcss6 {
   width: 100%;
@@ -382,11 +389,16 @@ body {
     flex-direction: column;
   }
   .footer_3 {
-    justify-content: left;
+    justify-content: center;
     flex-direction: column;
     box-sizing: content-box;
   }
   .footer_3 p {
+    text-align: center;
     margin: 0;
+  }
+
+  .footer_3 .navbar_2{
+    display: none;
   }
 }
