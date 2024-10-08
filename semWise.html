@@ -4,16 +4,19 @@
     <div class="semcss2" ng-repeat="items in filteredSem">
         <div class="semcss3">{{items.subName}}</div>
         <div class="semcss4">
-            <h4>Winter</h4>
             <h4>Summer</h4>
+            <h4>Winter</h4>
         </div>
         <div class="semcss5 bdr_btm_light">
-            <a href="https://gtu.ac.in/uploads/W2023/BE/{{items.subCode}}.pdf" target="_blank">Winter - 2023</a>
+            <a class="text_highlight" href="https://gtu.ac.in/uploads/S2024/BE/{{items.subCode}}.pdf" target="_blank">Summer - 2024</a>
+        </div>
+        <div class="semcss5 bdr_btm_light">
             <a href="https://gtu.ac.in/uploads/S2023/BE/{{items.subCode}}.pdf" target="_blank">Summer - 2023</a>
+            <a href="https://gtu.ac.in/uploads/W2023/BE/{{items.subCode}}.pdf" target="_blank">Winter - 2023</a>
         </div>
         <div class="semcss5">
-            <a href="https://gtu.ac.in/uploads/W2022/BE/{{items.subCode}}.pdf" target="_blank">Winter - 2022</a>
             <a href="https://gtu.ac.in/uploads/S2022/BE/{{items.subCode}}.pdf" target="_blank">Summer - 2022</a>
+            <a href="https://gtu.ac.in/uploads/W2022/BE/{{items.subCode}}.pdf" target="_blank">Winter - 2022</a>
         </div>
     </div>
 </div>

@@ -24,6 +24,14 @@ body {
   border-bottom: 1px solid #f1f1f1;
 }
 
+.text_highlight{
+  color: #1b8700;
+}
+
+.font_20px{
+  font-size: 20px;
+}
+
 .indexcss1 {
   display: flex;
   flex-direction: column;
