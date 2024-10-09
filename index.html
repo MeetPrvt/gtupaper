@@ -16,17 +16,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:description"
         content="Direct Download Link of Latest Summer 24 Papers , Download GTU paper , download be question papers , GTU Exam Papers, GTU results , result of gtu , GTU paper solution , gtu old papers , gujarat technological university , gtu gujarat ,  GTU Exam Material, GTU syllabus, Timetable">
-    <meta
-        content="Direct Download Link of Latest Summer 24 Papers,Download GTU paper , download be question papers, GTU Exam Papers, GTU results , result of gtu , GTU paper solution , gtu old papers , gujarat technological university , gtu gujarat ,  GTU Exam Material, GTU syllabus, Timetable"
-        name="description">
-    <!-- <meta content="GTU, gujarat tecnological university , gtu.ac.in , gtu.ac , gtu.com , gtu .edu.in , gtu.edu.in/Qpaper , gtu.ac.in/qpapers , be , engineering , gtu papers, be question paper , mba institute , gujarat common entrast test , cat , gset , b.pharm question paper , me question paper , mca question paper , mba question paper , mca question paper , pddc question paper , diploma question paper ,gtu paper,test papers, question paper ,gtu paper , question paper of , question paper 2011 , question paper 2010 , question paper 2008 , question paper 2009 , question paper sem 1 , sem 2 , sem 3 , sem 4 , sem 5 , sem 6, sem 7 , sem 8 , ty , fy , sy ,entrance tests ,  test papers , question paper question paper , GTU Exam, GTU exam paper, GTU Exam Timetable, Syllabus of GTU,GCET,E-book, GTU Exam Papers, GTU Syllabus, GTU exam result, Gujarat educational news, , MBA, GCET, GUJCET, CAT, MAT, Engineering, IIT-JEE, AIEEE, Medical, AIIMS, BBA, BCA, entrance exams, entrance test, entrance examination, entrance exam information, dates, paper, admission exam, admission test, coaching, syllabus, question papers, preparation, result, entrance exams" name="keywords"> -->
+    <meta name="description"
+        content="Direct Download Link of Latest Summer 24 Papers,Download GTU paper , download be question papers, GTU Exam Papers, GTU results , result of gtu , GTU paper solution , gtu old papers , gujarat technological university , gtu gujarat ,  GTU Exam Material, GTU syllabus, Timetable">
     <meta name="keywords" content="gtu, question paper, download , previos, year , gtu exam, exam, subjects, search">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://gtupaperarchives.netlify.app/">
     <meta name="language" content="en">
     <meta property="og:title" content="Download GTU exam papers">
-    <!-- <meta property="og:description" content="download previous year question paper for gtu exams free."> -->
-    <meta property="og:image" content="https://www.yourwebsite.com/your-image.jpg">
     <meta property="og:url" content="https://gtupaperarchives.netlify.app/">
     <meta property="og:type" content="website">
 
@@ -41,15 +37,14 @@
     <div ng-app="myApp" ng-controller="indexController" class="indexcss1">
         <div>
             <div ng-include="'navbar.html'"></div>
-            <div ng-show="currentScreen == 'home'" ng-include="'home.html'"></div>
-            <div ng-show="currentScreen == 'semwise'" ng-include="'semWise.html'"></div>
-            <div ng-show="currentScreen == 'searchsubject'" ng-include="'searchSubject.html'"></div>
+            <div ng-if="currentScreen == 'home'" ng-include="'home.html'"></div>
+            <div ng-if="currentScreen == 'semwise'" ng-include="'semWise.html'"></div>
+            <div ng-if="currentScreen == 'searchsubject'" ng-include="'searchSubject.html'"></div>
         </div>
         <div ng-show="loader" class="loader_outter">
             <div class="loader">Loading</div>
         </div>
         <footer class="footer_1">
-            <!-- <div class="footer_2"><a href="">To the top</a></div> -->
             <div class="footer_3">
                 <div class="navbar_2" title="logo">GTUPapersArchive</div>
                 <p>&copy; <span id="year">2024</span> GTUPapersArchive. All rights reserved.</p>

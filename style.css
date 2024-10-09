@@ -28,6 +28,10 @@ body {
   color: #1b8700;
 }
 
+.text_center{
+  text-align: center;
+}
+
 .font_20px{
   font-size: 20px;
 }
